@@ -1,9 +1,9 @@
 package main;
 
-public class PessoaAdapter extends PessoaFisica {
+public class TrabalhadorAdapter extends PessoaFisica {
     private IRegimeTrabalho regimeTrabalho;
 
-    public PessoaAdapter(IRegimeTrabalho regimeTrabalho){
+    public TrabalhadorAdapter(IRegimeTrabalho regimeTrabalho){
         this.regimeTrabalho = regimeTrabalho;
     }
 
